@@ -6,13 +6,12 @@ datePublished: Sat Feb 22 2025 15:10:34 GMT+0000 (Coordinated Universal Time)
 cuid: cm7gc75dt000a07jv26mler6w
 slug: step-by-step-guide-to-implementing-github-sign-in
 canonical: https://appwrite.io/blog/post/implement-sign-in-with-github
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740240191767/79c9ba9b-8e39-4487-8db4-fd7fc3a60bca.png
 tags: aws, github, git, devops, gitcommands
 
 ---
 
 ### **In this tutorial, you'll learn how to create a fully functional GitHub login system in your app.**
-
-![](https://appwrite.io/images/blog/implement-sign-in-with-github/cover.png align="left")
 
 If you're building an app that developers will use, adding GitHub login makes things easier for your users. In this tutorial, you'll learn how to create a GitHub login system using Vanilla JavaScript and Appwrite. By the end, your users will be able to log in with their GitHub accounts, see personalized details, and log out.
 
