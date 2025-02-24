@@ -18,15 +18,15 @@ This project is designed to cover complex, real-world scenarios that AWS & DevOp
 
 ### **Table of Contents**
 
-1. [Project Overview](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#project-overview)
+1. Project Overview
     
-2. [Prerequisites](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#prerequisites)
+2. Prerequisites
     
-3. [Architecture Diagram](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#architecture-diagram)
+3. Architecture Diagram
     
-4. [Step-by-Step Guide](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#step-by-step-guide)
+4. Step-by-Step Guide
     
-    * [Infrastructure as Code with Terraform](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#infrastructure-as-code-with-terraform)
+    * Infrastructure as Code with Terraform
         
         * Setting Up the VPC and Networking
             
@@ -36,21 +36,21 @@ This project is designed to cover complex, real-world scenarios that AWS & DevOp
             
         * Integrating with RDS for Persistent Storage
             
-    * [Deploying Jenkins in a Highly Available Configuration](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#deploying-jenkins-in-a-highly-available-configuration)
+    * Deploying Jenkins in a Highly Available Configuration
         
         * Setting Up Jenkins on EC2 with Auto-Scaling
             
         * Configuring Jenkins Master-Slave Architecture
             
-    * [Building and Dockerizing Microservices](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#building-and-dockerizing-microservices)
+    * Building and Dockerizing Microservices
         
-    * [Implementing Service Mesh with Istio](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#implementing-service-mesh-with-istio)
+    * Implementing Service Mesh with Istio
         
         * Installing Istio on EKS
             
         * Configuring Traffic Management, Security, and Observability
             
-    * [Setting Up Jenkins CI/CD Pipeline](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#setting-up-jenkins-cicd-pipeline)
+    * Setting Up Jenkins CI/CD Pipeline
         
         * Integrating GitHub, Jenkins, Docker, and EKS
             
@@ -58,7 +58,7 @@ This project is designed to cover complex, real-world scenarios that AWS & DevOp
             
         * Automated Canary Deployments with Istio
             
-    * [Monitoring, Logging, and Alerting](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#monitoring-logging-and-alerting)
+    * Monitoring, Logging, and Alerting
         
         * Setting Up Prometheus and Grafana
             
@@ -66,11 +66,11 @@ This project is designed to cover complex, real-world scenarios that AWS & DevOp
             
         * Setting Up Alertmanager for Incident Response
             
-5. [Testing and Validation](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#testing-and-validation)
+5. Testing and Validation
     
-6. [Conclusion](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#conclusion)
+6. Conclusion
     
-7. [References](https://dev.to/prodevopsguytech/aws-devops-project-advanced-automated-cicd-pipeline-with-infrastructure-as-code-microservices-service-mesh-and-monitoring-3o13#references)
+7. References
     
 
 ---
@@ -102,7 +102,6 @@ This project will guide you through setting up an advanced CI/CD pipeline that a
 
 [![Image description](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3het6tifzhazjjawuj40.png align="left")](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3het6tifzhazjjawuj40.png)
 
-  
 The architecture consists of a VPC with public and private subnets, an EKS cluster deployed across multiple Availability Zones, Jenkins deployed in a highly available configuration on EC2 with Auto-Scaling, RDS for persistent data storage, and Istio for service mesh integration. Monitoring is handled by Prometheus and Grafana, while Fluentd centralizes logging.
 
 #### **Architecture Diagram Overview**
