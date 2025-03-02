@@ -12,17 +12,17 @@ tags: ec2, programming-blogs, docker, aws, github, projects, ansible, git, devel
 
 ## **Table of contents**
 
-* [Introduction](https://blog.prodevopsguy.xyz/50-devops-project-ideas-to-build-your-skills-from-beginner-to-advanced#heading-introduction)
+* Introduction
     
-* [Beginner-Level Projects](https://blog.prodevopsguy.xyz/50-devops-project-ideas-to-build-your-skills-from-beginner-to-advanced#heading-beginner-level-projects)
+* Beginner-Level Projects
     
-* [Intermediate-Level Projects](https://blog.prodevopsguy.xyz/50-devops-project-ideas-to-build-your-skills-from-beginner-to-advanced#heading-intermediate-level-projects)
+* Intermediate-Level Projects
     
-* [Advanced-Level Projects](https://blog.prodevopsguy.xyz/50-devops-project-ideas-to-build-your-skills-from-beginner-to-advanced#heading-advanced-level-projects)
+* Advanced-Level Projects
     
-* [Conclusion](https://blog.prodevopsguy.xyz/50-devops-project-ideas-to-build-your-skills-from-beginner-to-advanced#heading-conclusion)
+* Conclusion
     
-* [👤 Author](https://minddev.hashnode.dev/)
+* 👤 Author
     
 
 ### **Introduction**
